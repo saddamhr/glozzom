@@ -1,4 +1,10 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #ddd; }
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1rem; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; } }
