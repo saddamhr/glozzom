@@ -80,6 +80,9 @@ $dark-overlay: rgba(0, 0, 0, 0.7);
 		min-height: 250px;
 	}
 }
+#copyright {
+	background: black;
+}
 
 @media (max-width: 767px) {
 	.nav-item {

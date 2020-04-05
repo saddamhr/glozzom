@@ -59,6 +59,9 @@
 #gallery img {
   min-height: 250px; }
 
+#copyright {
+  background: black; }
+
 @media (max-width: 767px) {
   .nav-item {
     padding-left: 0 !important; }
