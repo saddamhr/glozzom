@@ -84,6 +84,41 @@ $dark-overlay: rgba(0, 0, 0, 0.7);
 	background: black;
 }
 
+#page-header {
+	background: url("../img/image1.jpeg");
+	background-size: cover;
+	height: 200px;
+	background-attachment: fixed;
+}
+
+#services-page-header {
+	background: url("../img/image3.jpeg");
+	background-size: cover;
+	height: 200px;
+	background-attachment: fixed;
+}
+
+#about-info {
+	img {
+		width: 350px;
+		height: 350px;
+	}
+}
+
+#icon-boxes {
+	.fa {
+		font-size: $icon-size;
+		margin-bottom: 20px;
+	}
+}
+
+#testimonial {
+	.slick-prev::before,
+	.slick-next::before{
+		color: #000;
+	}
+}
+
 @media (max-width: 767px) {
 	.nav-item {
 		padding-left: 0 !important;
